@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useScroll = (pageNo) => {
-    const maxLimit = 5;
+    const maxLimit = 15;
     const [posts, setPosts] = useState([]);
     const [loading, setLoading] = useState(true);
     const [morePosts, setMorePosts] = useState(false);
