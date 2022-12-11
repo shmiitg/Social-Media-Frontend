@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --clr-black: #273239;
+    --clr-primary: #008181;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+    font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s color ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+    list-style: none;
+}
+
+input {
+    width: 100%;
+    color: #546e7a;
+    border: 1px solid #cfd8dc;
+    font-weight: 300;
+    transition: 0.4s all;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0.5rem #51cbee;
+    border: 1px solid #51cbee;
+}
+
+.container {
+    margin: 13rem auto 0;
+    background-color: #fff;
+    max-width: 140rem;
+    padding: 0 3rem;
 }

@@ -1,0 +1,78 @@
+.form-container {
+    width: 35rem;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.05);
+}
+
+.auth__container {
+    margin-top: 7rem;
+    height: calc(100vh - 12rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-logo {
+    width: 15rem;
+    margin: 0 auto 2.2rem;
+}
+
+.form-logo img {
+    width: 100%;
+}
+
+.form-fields {
+    margin-bottom: 1.75rem;
+}
+
+input,
+button {
+    padding: 0.9rem 1.3rem;
+    line-height: 1.4;
+    border-radius: 0.3rem;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.auth__container input {
+    line-height: 1.325;
+    font-size: 1.35rem;
+    letter-spacing: 0.2px;
+    color: var(--clr-primary);
+    font-weight: 400;
+}
+
+.btn-account {
+    background: #455a64;
+    border: 1px solid #b0bec5;
+    color: #fff;
+    transition: 0.2s all ease-in-out;
+    outline: 0;
+    cursor: pointer;
+    margin: 1rem 0 0.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.btn-account:focus {
+    box-shadow: 0 0 0.5rem #51cbee;
+}
+
+.account-toggle {
+    margin-top: 1.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.account-toggle a {
+    font-weight: 500;
+    font-size: 1.55;
+    color: var(--clr-primary);
+}

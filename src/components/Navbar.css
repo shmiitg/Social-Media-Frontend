@@ -1,0 +1,47 @@
+.navbar {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1.5rem 1rem -1.5rem #1111112b;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 7.25rem;
+    padding: 0 3.25rem;
+}
+
+.nav-logo {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo img {
+    height: 7.25rem;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: #121212;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.logout {
+    cursor: pointer;
+}
+
+.nav-right a {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    cursor: pointer;
+}

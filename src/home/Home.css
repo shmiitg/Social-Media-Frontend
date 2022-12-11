@@ -1,0 +1,84 @@
+.container-home {
+    margin: 13rem auto 0;
+    background-color: #fff;
+    max-width: 80rem;
+    padding: 0 3rem;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.post {
+    border-radius: 5px;
+    background: #7dc6f3;
+    margin: 1.5rem;
+    padding: 1.75rem;
+    height: fit-content;
+    color: #121212;
+}
+
+.post-description {
+    font-size: 2.25rem;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.post-description-content {
+    margin: 1rem 0;
+}
+
+.post-description svg {
+    font-size: 3rem;
+}
+
+.post-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.post-image {
+    width: 4rem;
+    background-color: #577ae4;
+    border-radius: 50%;
+}
+
+.post-image img {
+    border-radius: 50%;
+}
+
+.post-bottom-left {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.post-author {
+    font-family: cursive;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #0e2e7f;
+}
+
+.post-bottom-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 0.5rem;
+}
+
+.post-edit svg {
+    color: #414160;
+    cursor: pointer;
+}
+
+.post-delete svg {
+    color: #c44949;
+    cursor: pointer;
+}
